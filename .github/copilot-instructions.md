@@ -1,0 +1,9 @@
+- [x] Verify that the copilot-instructions.md file in the .github directory is created.
+- [x] Clarify Project Requirements (Web3 dApp: Solidity + Hardhat backend, Next.js + wagmi frontend)
+- [x] Scaffold the Project (Hardhat + Next.js + Tailwind + wagmi/RainbowKit)
+- [x] Customize the Project (TipJar contract, deploy script, tests, frontend wiring)
+- [x] Install Required Extensions (none required)
+- [x] Compile the Project (ran `npm test`, `npm run lint` in frontend)
+- [x] Create and Run Task (not required for this setup)
+- [ ] Launch the Project (awaiting user instruction)
+- [x] Ensure Documentation is Complete (root README, frontend README, env examples)

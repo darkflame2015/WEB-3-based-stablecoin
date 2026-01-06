@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+  "target": "es2020",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "types": ["node", "mocha"],
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["hardhat.config.ts", "scripts", "test", "typechain-types", "contracts"],
+  "ts-node": {
+    "require": ["tsconfig-paths/register"]
+  }
+}

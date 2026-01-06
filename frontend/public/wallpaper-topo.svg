@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <defs>
+    <pattern id="topo" x="0" y="0" width="200" height="200" patternUnits="userSpaceOnUse">
+      <rect width="200" height="200" fill="none" />
+      <g fill="none" stroke="white" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity="0.9">
+        <path d="M10 40 C40 20, 80 20, 110 40 C150 65, 140 110, 100 125 C60 140, 30 120, 20 90" />
+        <path d="M140 60 C180 40, 210 50, 190 90 C170 130, 120 150, 90 140" />
+        <path d="M30 160 C60 140, 110 145, 130 180 C150 210, 100 230, 60 210 C40 195, 20 180, 30 160" />
+        <path d="M120 190 C150 175, 200 175, 215 200 C230 225, 190 240, 150 235 C135 230, 105 210, 120 190" />
+        <path d="M70 70 C90 55, 130 60, 140 80 C155 105, 120 120, 90 115 C70 110, 55 85, 70 70" />
+        <path d="M0 0 L200 0 L200 200 L0 200 Z" opacity="0.05" />
+      </g>
+      <g fill="none" stroke="white" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.55">
+        <path d="M-20 100 C30 60, 90 60, 130 90 C170 120, 150 170, 100 190 C50 210, 0 180, -10 140" />
+        <path d="M160 10 C210 -10, 240 30, 220 60 C200 90, 150 95, 130 70" />
+        <path d="M180 140 C210 130, 240 150, 230 180 C220 210, 180 230, 150 220" />
+        <path d="M50 20 C70 10, 110 5, 130 25 C150 45, 140 70, 110 75 C85 80, 55 45, 50 20" />
+      </g>
+    </pattern>
+  </defs>
+  <rect width="400" height="400" fill="black" />
+  <rect width="400" height="400" fill="url(#topo)" />
+</svg>
