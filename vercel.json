@@ -1,7 +1,7 @@
 {
   "version": 2,
   "builds": [
-    { "src": "frontend/next.config.mjs", "use": "@vercel/next" }
+    { "src": "frontend/package.json", "use": "@vercel/next" }
   ],
   "installCommand": "cd frontend && npm install",
   "buildCommand": "cd frontend && npm run build",
