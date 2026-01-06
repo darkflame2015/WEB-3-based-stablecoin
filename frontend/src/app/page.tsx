@@ -6,7 +6,9 @@ import { useAccount, useReadContract, useWaitForTransactionReceipt, useWriteCont
 import { Address, formatEther, keccak256, parseEther, toBytes } from "viem";
 import { reliefAbi } from "@/lib/abi";
 
-const contractAddress = (process.env.NEXT_PUBLIC_RELIEF_ADDRESS || "") as Address;
+// Demo address for localhost Hardhat - replace with your deployed Sepolia/mainnet address
+const DEMO_CONTRACT_ADDRESS = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
+const contractAddress = (process.env.NEXT_PUBLIC_RELIEF_ADDRESS || DEMO_CONTRACT_ADDRESS) as Address;
 const defaultCategoryLabels = ["FOOD", "SHELTER", "MEDICAL", "CASH"] as const;
 const hashLabel = (label: string) => keccak256(toBytes(label));
 const defaultCategoryOptions = defaultCategoryLabels.map((label) => ({ label, value: hashLabel(label) as Address }));
