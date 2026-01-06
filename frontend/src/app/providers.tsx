@@ -7,7 +7,7 @@ import { ReactNode, useState } from "react";
 import { WagmiProvider, http } from "wagmi";
 import { mainnet, sepolia, localhost } from "wagmi/chains";
 
-const projectId = process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID || "demo-walletconnect";
+const projectId = process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID || "6613a9fd9683ce6b218b85a2a9bb169b";
 const rpcUrl = process.env.NEXT_PUBLIC_RPC_URL;
 
 const wagmiConfig = getDefaultConfig({
